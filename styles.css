@@ -1,0 +1,76 @@
+/* Style for the navigation menu */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  padding: auto;
+}
+
+/* Style for the navigation menu when hovered */
+.menu a:hover {
+  /* color: #080808; Change the color on hover */
+  background-color: rgb(110, 107, 107);
+  border: 1rem solid rgb(110, 107, 107);
+  border-radius: 3em;
+}
+
+/* Style for the navigation menu when hovered */
+.menu a:hover {
+  color: #ff5733; /* Change the color on hover */
+}
+
+/*content*/
+
+.aboutHeading {
+  text-align: center;
+}
+
+.cards {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.card {
+  padding: 1em;
+}
+
+.servicesHeading {
+  text-align: center;
+}
+
+/* contact */
+.contact {
+  padding: 1rem;
+}
+
+.contactHeading {
+  text-align: center;
+}
+
+/* Style for the navigation menu when scrolled */
+.scrolled {
+  background-color: #f1c058; /* Change the background color on scroll */
+}
